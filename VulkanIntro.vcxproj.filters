@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{34740d46-1edc-4a87-a58b-8506ef5ae656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{e4a3240b-15ca-476e-816d-cb57404037f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{0bee1456-ab33-40c6-87fb-d1b1056ddede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan">
+      <UniqueIdentifier>{c3efbee6-e367-46c6-a90e-ad1df9514651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Pipelines">
+      <UniqueIdentifier>{974f3733-83d6-4256-a0ba-b86f9aba0d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Structures">
+      <UniqueIdentifier>{1aecfa0d-80f2-4812-8534-45d82d8cc1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\Structures">
+      <UniqueIdentifier>{eb504adb-34ac-4f6d-aa0f-2f4629099a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Level">
+      <UniqueIdentifier>{81302bd5-c17b-4516-8d8b-83550947bff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Platforms">
+      <UniqueIdentifier>{50ec7ffd-2209-48e1-adeb-9fe3b522ef92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Platforms\Win">
+      <UniqueIdentifier>{deb5e063-c4eb-4962-907d-af1dbb5e9253}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\HelloTriangleApplication.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\Vulkan.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\Pipelines\SimpleTrianglePipeline.cpp">
+      <Filter>Source Files\Vulkan\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\Utils.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\Pipeline.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Structures\Mesh.cpp">
+      <Filter>Source Files\Engine\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Structures\Entity.cpp">
+      <Filter>Source Files\Engine\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Level\Level.cpp">
+      <Filter>Source Files\Application\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Vulkan\Structures\VulkanMesh.cpp">
+      <Filter>Source Files\Vulkan\Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\HelloTriangleApplication.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Macros.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\AppInfo.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineInfo.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\Vulkan.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Application.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\Pipeline.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\Utils.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\Pipelines\SimpleTrianglePipeline.h">
+      <Filter>Source Files\Vulkan\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Structures\Mesh.h">
+      <Filter>Source Files\Engine\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Structures\Vertex.h">
+      <Filter>Source Files\Engine\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Structures\Entity.h">
+      <Filter>Source Files\Engine\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\ShaderInfo.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Level\Level.h">
+      <Filter>Source Files\Application\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Vulkan\Structures\VulkanMesh.h">
+      <Filter>Source Files\Vulkan\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Platforms\Win\Time.h">
+      <Filter>Source Files\Application\Platforms\Win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
